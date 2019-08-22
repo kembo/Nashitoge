@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+.title {
+  font-style: italic;
+}
+
 .note {
   color: gray;
   font-size: 80%;
