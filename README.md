@@ -1,5 +1,5 @@
 # Nashitoge
-現行URL：https://reverent-williams-3efa39.netlify.com/
+現行URL：https://nashitoge.net/
 
 ## Nashitoge とは
 Nashitoge は小さな達成を共有し褒め合うことを促進する web サービス(?)です。
