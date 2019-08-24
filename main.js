@@ -3,13 +3,15 @@ function goToTweetPage(text) {
   url += "?hashtags=Nashitoge";
   url += "&text=" + encodeURI(text);
   url += "&url=" + encodeURI(document.URL);
-  window.location.href = url;
+  window.open(url);
 }
 
 function nashitoge() {
-  var text = document.getElementById('nashitoge-text').value;
-  text = "「" + text + "」を成し遂げました！";
-  goToTweetPage(text)
+  var box = document.getElementById('nashitoge-text')
+  var text = box.value;
+  text = "私は「" + text + "」を成し遂げました！";
+  goToTweetPage(text);
+  box.value = ""
 }
 
 document.getElementById('nashitoge-btn').addEventListener('click', nashitoge);
