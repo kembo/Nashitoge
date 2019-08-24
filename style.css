@@ -13,6 +13,33 @@
   font-size: 80%;
 }
 
+.note a {
+  color: gray;
+}
+
+.note a:hover {
+  color: lightgray;
+}
+
 footer {
   margin-top: 3em;
 }
+
+footer dl {
+  margin-bottom: 0.5em;
+}
+
+footer dt {
+  display: inline-block;
+}
+
+footer dt::after {
+  content: " :";
+}
+
+footer dd {
+  display: inline-block;
+  margin-left: 0.2em;
+  margin-right: 1em;
+}
+
