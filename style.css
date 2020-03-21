@@ -1,32 +1,7 @@
 @charset "utf-8";
 
-.title {
-  font-style: italic;
-}
-
-.emp {
-  font-weight: bold;
-}
-
-.note {
-  color: gray;
-  font-size: 80%;
-}
-
-.note a {
-  color: gray;
-}
-
-.note a:hover {
-  color: lightgray;
-}
-
-footer {
-  margin-top: 3em;
-}
-
-footer dl {
-  margin-bottom: 0.5em;
+.container {
+  max-width: 720px;
 }
 
 footer dt {
@@ -42,4 +17,3 @@ footer dd {
   margin-left: 0.2em;
   margin-right: 1em;
 }
-
